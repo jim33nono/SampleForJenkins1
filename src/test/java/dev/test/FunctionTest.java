@@ -30,7 +30,7 @@ public class FunctionTest {
 	@Test
 	public void test() {
 		FunctionOne functionOne = new FunctionOne();
-		assertEquals(true, functionOne.boolRunable());
+		assertEquals(false, functionOne.boolRunable());
 	}
 
 }
